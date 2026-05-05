@@ -1,0 +1,75 @@
+body{
+    position: relative;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.background{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.5;
+}
+.ana_div{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    opacity: 0.4;
+    border-radius: 25px;
+    
+}
+.ana_div:hover{
+    opacity: 0.7;
+}
+.giris{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(234, 208, 250);
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25) ;
+}
+.input{
+    width: 150px;
+    height: 25px;
+    border-radius: 15px;
+    z-index: 2;
+}
+.peekaboo{
+    opacity: 1;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+    left: 78%;
+    bottom: 40%;
+}
+
+.peekaboo img {
+    opacity: 1;
+    width: 100%;    /* Kapsayıcı olan .peekaboo'nun genişliğine sığdır */
+    height: 100%;   /* Kapsayıcı olan .peekaboo'nun yüksekliğine sığdır */
+    object-fit: contain; /* Görselin oranını bozmadan kutuya sığdırır */
+    
+}
+.text_divi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* İçerikleri dikey (sütun) olarak diz */
+    gap: 10px;
+
+}
+
+
